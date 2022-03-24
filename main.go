@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	//result := "A"
-	///palindrome.IsPalindrome(result)
 	fmt.Println(palindrome.IsPalindrome("AAAB"))
+	fmt.Println(palindrome.IsPalindrome("ABABA"))
 	fmt.Println(palindrome.IsPalindrome(10001))
+	fmt.Println(palindrome.IsPalindrome(10110))
 }

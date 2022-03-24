@@ -15,8 +15,7 @@ func IsPalindrome[input signedOrString](firstInput input) bool {
 		var sliceInt []int
 		switch newType := toInterface.(type){
 			case string:
-				slice := strings.Split(newType, "")
-				return palindrome(slice)
+				return palindrome(strings.Split(newType, ""))
 			case int:
 				sliceInt = sliceInteger(newType)
 			case int8:
